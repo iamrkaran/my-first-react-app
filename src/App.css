@@ -1,0 +1,14 @@
+.a{
+    text-align:center;
+    color:blue;
+    background-color: cornflowerblue;
+    text-decoration:none;
+    text-transform:capitalize;
+    text-indent: 25px;
+    letter-spacing: 10px; 
+    line-height: 30px;
+    text-shadow: 3px;
+    word-spacing:10px;
+    text-orientation: sideways;
+    direction: ltr;
+}
