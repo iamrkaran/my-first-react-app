@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import'./modified.css';
+import Navbar from "./Navbar";
 class App extends React.Component{
   constructor(props){
     super(props)
@@ -44,6 +45,7 @@ class App extends React.Component{
   render(){
     return(
       <div className="full">
+      <Navbar />
       <form className="w3-red w3-cell" onSubmit={this.handleSubmit}>
         <div className="w3-container container">
           <h1 className="w3-blue w3-block w3-teal heading">Form</h1>
@@ -62,7 +64,7 @@ class App extends React.Component{
             name='name' 
 
             placeholder='Name'
-            
+
             value={this.state.name}
             onChange={this.handleChange}
           />
