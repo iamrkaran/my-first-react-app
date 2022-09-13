@@ -14,7 +14,7 @@ class App extends React.Component{
   handleSubmit(event){
     const { email, name, age, address, phoneNo,lastName } = this.state
     
-    event.preventDefault()
+    event.preventDefault();
   
     alert(`
       ____Your Details____\n
