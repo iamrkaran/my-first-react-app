@@ -60,7 +60,9 @@ class App extends React.Component{
           <label htmlFor='name'>Name</label>
           <input className="w3-input"
             name='name' 
+
             placeholder='Name'
+            
             value={this.state.name}
             onChange={this.handleChange}
           />
